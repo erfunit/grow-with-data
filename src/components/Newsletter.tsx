@@ -1,6 +1,6 @@
 import React from "react";
 
-function Newsletter() {
+const Newsletter: React.FC = () => {
   return (
     <div className="w-full py-16 text-white px-4">
       <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
@@ -34,6 +34,6 @@ function Newsletter() {
       </div>
     </div>
   );
-}
+};
 
 export default Newsletter;

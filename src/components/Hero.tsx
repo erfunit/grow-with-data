@@ -1,7 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 
-function Hero() {
+const Hero: React.FC = () => {
   return (
     <div className="text-white">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center justify-center flex flex-col">
@@ -31,6 +31,6 @@ function Hero() {
       </div>
     </div>
   );
-}
+};
 
 export default Hero;

@@ -1,7 +1,8 @@
 import React from "react";
+
 import Laptop from "../assets/laptop.jpg";
 
-function Analytics() {
+const Analytics: React.FC = () => {
   return (
     <div className="w-full bg-white py-16 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
@@ -24,6 +25,6 @@ function Analytics() {
       </div>
     </div>
   );
-}
+};
 
 export default Analytics;

@@ -7,7 +7,7 @@ import {
   FaTwitterSquare,
 } from "react-icons/fa";
 
-function Footer() {
+const Footer: React.FC = () => {
   return (
     <footer className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
       <div>
@@ -71,6 +71,6 @@ function Footer() {
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

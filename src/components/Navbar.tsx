@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
-const Navbar = () => {
-  const [nav, setNav] = useState(false);
+const Navbar: React.FC = () => {
+  const [nav, setNav] = useState<boolean>(false);
 
   return (
     <header className="text-white flex justify-between items-center px-4 h-24 max-w-[1240px] mx-auto">
